@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:gravity="bottom">
+
+    <FrameLayout
+        android:id="@+id/item_menu_header_main_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle_gradient_blue_bg" />
+
+        <TextView
+            android:id="@+id/item_menu_header_main_simple_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="GW"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/item_menu_header_main_icon"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_menu_header_main_name"
+            style="@style/s16_black_bold_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guanlin Wang"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/item_menu_header_main_email"
+            style="@style/s12_grey_brown_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="guanlin.wang@sbibits.com"
+            android:textColor="@color/dark_gray" />
+
+        <TextView
+            style="@style/s12_blue_grey_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_main_account_information"
+            android:textColor="@color/md_indigo_A100" />
+    </LinearLayout>
+
+    <View
+        style="@style/Divider"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

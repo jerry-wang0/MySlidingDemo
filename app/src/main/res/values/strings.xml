@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">SlidingDemo</string>
+
+    <string name="roboto_condensed">sans-serif-condensed</string>
+
+    <string name="asset_pair_xrp">XRP&#160;(Ripple)</string>
+    <string name="asset_pair_btc">BTC&#160;(Bitcoin)</string>
+    <string name="asset_pair_btc_cash">BCH&#160;(Bitcoin&#160;Cash)</string>
+    <string name="asset_pair_eth">ETH&#160;(Ethereum)</string>
+    <string name="asset_pair_ltc">LTC&#160;(Litecoin)</string>
+    <string name="asset_pair_simple_xrp">XRP</string>
+    <string name="asset_pair_simple_btc">BTC</string>
+    <string name="asset_pair_simple_btc_cash">BCH</string>
+    <string name="asset_pair_simple_eth">ETH</string>
+    <string name="asset_pair_simple_ltc">LTC</string>
+    <string name="asset_pair2_simple_xrp">XRP_JPY</string>
+    <string name="asset_pair2_simple_btc">BTC_JPY</string>
+    <string name="asset_pair2_simple_btc_cash">BCH_JPY</string>
+    <string name="asset_pair2_simple_eth">ETH_JPY</string>
+    <string name="asset_pair2_simple_ltc">LTC_JPY</string>
+    <string name="rate_status_price">%s&#160;円</string>
+    <string name="rate_status_percent_up">↑&#160;%s&#160;%%</string>
+    <string name="rate_status_percent_down">↓&#160;%s&#160;%%</string>
+    <string name="wallet_status_plus">+%s</string>
+    <string name="chart_time">O&#160;:%.3f</string>
+    <string name="chart_open_price">O&#160;:%s</string>
+    <string name="chart_close_price">C&#160;:%s</string>
+    <string name="chart_high_price">H&#160;:%s</string>
+    <string name="chart_low_price">L&#160;:%s</string>
+    <string name="chart_sell">Sell</string>
+    <string name="chart_buy">Buy</string>
+    <string name="trading_order_fak">FAK</string>
+    <string name="trading_order_fok">FOK</string>
+    <string name="trading_order_price_not_enough">price not enough</string>
+    <string name="trading_order_quantity_not_enough">quantity not enough</string>
+
+    <array name="asset_pairs">
+        <item>XRP&#160;(Ripple)</item>
+        <item>BTC&#160;(Bitcoin)</item>
+        <item>BCH&#160;(Bitcoin&#160;Cash)</item>
+        <item>ETH&#160;(Ethereum)</item>
+        <item>LTC&#160;(Litecoin)</item>
+    </array>
+
+    <array name="asset_pairs2">
+        <item>XRP_JPY</item>
+        <item>BTC_JPY</item>
+        <item>BCH_JPY</item>
+        <item>ETH_JPY</item>
+        <item>LTC_JPY</item>
+    </array>
+
+    <array name="asset_pairs_simple">
+        <item>XRP</item>
+        <item>BTC</item>
+        <item>BCH</item>
+        <item>ETH</item>
+        <item>LTC</item>
+    </array>
+
+    <array name="chart_interval">
+        <item>1&#160;Min</item>
+        <item>5&#160;Min</item>
+        <item>1&#160;H</item>
+        <item>1&#160;D</item>
+        <item>1&#160;W</item>
+        <item>1&#160;M</item>
+        <item>3&#160;M</item>
+    </array>
+
+    <array name="chart_style">
+        <item>Candle</item>
+        <item>Line</item>
+    </array>
+    <array name="orders_status">
+        <item>Pending</item>
+        <item>Resume</item>
+    </array>
+
+    <!--menu-->
+    <string name="menu_main_account_information">Information</string>
+    <string name="menu_main_home">Home</string>
+    <string name="menu_main_trading">Trading</string>
+    <string name="menu_main_deposit">Deposit</string>
+    <string name="menu_main_account">Account</string>
+    <string name="menu_main_logout">Logout</string>
+    <string name="menu_navigation_drawer_open">Open&#160;navigation&#160;drawer</string>
+    <string name="menu_navigation_drawer_close">Close&#160;navigation&#160;drawer</string>
+
+    <!--main bar-->
+    <string name="bar_main_content_property">Property</string>
+    <string name="bar_main_content_trading_history">Trading&#160;history</string>
+    <string name="bar_main_content_property_buying_power">Buying&#160;power</string>
+    <string name="bar_main_content_property_virtual_currency">Virtual&#160;currency</string>
+
+    <!--dialog-->
+    <string name="dialog_title_pair_list">Pair&#160;List</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_confirm">Confirm</string>
+
+    <string name="dialog_btn_login">Login</string>
+    <string name="dialog_title_confirm">Confirm</string>
+    <string name="dialog_title_login">Login</string>
+    <string name="dialog_title_new_order">New&#160;Order</string>
+    <string name="dialog_title_cancel_order">Cancel&#160;Order</string>
+    <string name="dialog_title_logout">Logout</string>
+
+    <string name="item_dialog_order_detail_activeQty">activeQty</string>
+    <string name="item_dialog_order_detail_cumCxlQty">cumCxlQty</string>
+    <string name="item_dialog_order_detail_quantity">quantity</string>
+    <string name="item_dialog_order_detail_orderId">orderId</string>
+    <string name="item_dialog_order_detail_cumtrdQty">cumtrdQty</string>
+    <string name="item_dialog_order_detail_price">price</string>
+    <string name="item_dialog_order_detail_assetPair">assetPair</string>
+    <string name="item_dialog_order_detail_orderSide">orderSide</string>
+    <string name="item_dialog_order_detail_sendTime">sendTime</string>
+    <string name="item_dialog_order_detail_status">status</string>
+
+    <string name="perf_article_font_size">Article&#160;Font&#160;Size</string>
+    <string name="perf_article_font_size_desc">Manage&#160;font&#160;size&#160;of&#160;article</string>
+    <string name="perf_article_font_size_key">Preference&#160;article&#160;font&#160;size</string>
+
+    <!--login-->
+    <string name="login_btn_name">login</string>
+    <string name="login_edt_account">account</string>
+    <string name="login_edt_password">password</string>
+    <string name="login_tv_forget_ps">forget&#160;password</string>
+    <string name="login_tv_sign_in">sign&#160;in</string>
+    <string name="login_tv_no_access">have&#160;no&#160;access</string>
+    <string name="login_tv_register">register&#160;an&#160;account</string>
+
+    <!--home-->
+    <string name="home_tv_rate">rate</string>
+    <string name="home_tv_wallet">wallet</string>
+    <string name="home_wallet_title_symbol">Symbol</string>
+    <string name="home_wallet_title_quantity">Quantity</string>
+    <string name="home_wallet_title_price">Price</string>
+    <string name="home_wallet_title_evaluation">Evaluation</string>
+    <string name="home_wallet_title_profit">Profit</string>
+    <string name="home_wallet_total">Total</string>
+
+    <!--account-->
+    <string name="account_tv_trading_history">trading&#160;history</string>
+    <string name="account_tv_user">account</string>
+    <string name="account_edt_password">password</string>
+    <string name="account_tv_user_change">User changes</string>
+
+    <!--trading-->
+    <string name="trading_order_quantity">quantity</string>
+    <string name="trading_order_asset_pair_quantity">%s&#160;quantity</string>
+    <string name="trading_order_choice_plus">+&#160;%s</string>
+    <string name="trading_order_price">price</string>
+    <string name="trading_order_japanese_yen">japanese&#160;yen</string>
+    <string name="trading_order_yen">円</string>
+    <string name="trading_order_buying_power">buying&#160;power(円):&#160;%s</string>
+    <string name="trading_order_market">成行</string>
+    <string name="trading_order_define_price">define&#160;price</string>
+    <string name="trading_order_sell">sell</string>
+    <string name="trading_order_buy">buy</string>
+    <string name="trading_order_condition">condition</string>
+
+    <!--history-->
+    <string name="item_history_title_bar_pending">pending&#160;history</string>
+    <string name="item_history_title_bar_market">market&#160;history</string>
+    <string name="item_history_title_date">date</string>
+    <string name="item_history_title_time">time</string>
+    <string name="item_history_title_brand">brand</string>
+    <string name="item_history_title_trading">trading</string>
+    <string name="item_history_title_amount_money">amount&#160;money</string>
+    <string name="item_history_title_quantity">quantity</string>
+    <string name="item_history_title_price">price</string>
+    <string name="item_history_title_status">status</string>
+    <string name="item_history_title_detail">detail</string>
+</resources>

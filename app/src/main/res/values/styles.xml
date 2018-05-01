@@ -1,0 +1,325 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@string/roboto_condensed</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--Dark Theme-->
+    <!-- Base application theme. -->
+    <style name="DarkAppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/md_teal_200</item>
+        <item name="android:windowBackground">@color/darkColorBackground</item>
+        <item name="android:colorBackground">@color/darkColorBackground</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/md_grey_300</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@string/roboto_condensed</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="DarkAppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="Divider_bold" parent="Divider">
+        <item name="android:layout_height">2dp</item>
+    </style>
+
+    <style name="Divider_blue_bold" parent="Divider_bold">
+        <item name="android:background">@drawable/line_blue_gradient_bg</item>
+    </style>
+
+    <style name="Divider_blue_grey" parent="Divider">
+        <item name="android:background">@color/blue_grey</item>
+    </style>
+
+    <style name="white_font">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="gary_font">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="deep_gray_font">
+        <item name="android:textColor">@color/deep_gray</item>
+    </style>
+
+    <style name="black_font">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="dodger_blue_font">
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="blue_grey_font">
+        <item name="android:textColor">@color/blue_grey</item>
+    </style>
+
+    <style name="cyan_grey_font">
+        <item name="android:textColor">@color/cyan_grey</item>
+    </style>
+
+    <style name="grey_brown_font">
+        <item name="android:textColor">@color/grey_brown</item>
+    </style>
+
+    <style name="red_font">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="default_txt_btn_style" parent="white_font">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="white_font_blue_btn" parent="default_txt_btn_style">
+        <item name="android:background">@drawable/rectangle_gradient_blue_selector</item>
+    </style>
+
+    <style name="white_font_red_btn" parent="default_txt_btn_style">
+        <item name="android:background">@drawable/rectangle_gradient_red_selector</item>
+    </style>
+
+    <style name="title_name_font" parent="dodger_blue_font">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="splash_font" parent="white_font">
+        <item name="android:textSize">32dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="s10_blue_grey_font" parent="blue_grey_font">
+        <item name="android:textSize">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="s10_blue_grey_include_home_wallet_title_font" parent="blue_grey_font">
+        <item name="android:textSize">10dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="s10_gray_font" parent="gary_font">
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="s10_white_font" parent="white_font">
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="s11_white_font" parent="white_font">
+        <item name="android:textSize">11dp</item>
+    </style>
+
+    <style name="s11_white_font_blue_grey_btn" parent="white_font">
+        <item name="android:textSize">11dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rectangle_blue_grey_selector</item>
+    </style>
+
+    <style name="s11_grey_brown_font" parent="grey_brown_font">
+        <item name="android:textSize">11dp</item>
+    </style>
+
+    <style name="s11_cyan_grey_font" parent="cyan_grey_font">
+        <item name="android:textSize">11dp</item>
+    </style>
+
+    <style name="s11_grey_brown_include_home_wallet_total_font" parent="s11_grey_brown_font">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="s11_grey_brown_bold_font" parent="s11_grey_brown_font">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="s12_white_font" parent="white_font">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="s12_grey_brown_font" parent="grey_brown_font">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="s12_blue_grey_font" parent="blue_grey_font">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="s12_grey_brown_item_home_wallet_font" parent="s12_grey_brown_font">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="s13_grey_brown_bold_item_home_wallet_font" parent="s13_grey_brown_bold_font">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="s13_grey_brown_font" parent="grey_brown_font">
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="s13_grey_brown_bold_font" parent="s13_grey_brown_font">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="s13_white_bold_font" parent="white_font">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="s13_black_font" parent="black_font">
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="s14_white_font" parent="white_font">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="s14_white_font_txt" parent="default_txt_btn_style">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="s14_black_font" parent="black_font">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="s15_grey_brown_bold_font" parent="grey_brown_font">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="s15_blue_grey_font" parent="blue_grey_font">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="s15_black_font" parent="black_font">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="s15_gray_font" parent="gary_font">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="s15_deep_gray_font" parent="deep_gray_font">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="s16_white_font_blue_btn" parent="white_font_blue_btn">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="s16_white_font_red_btn" parent="white_font_red_btn">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="s16_white_font" parent="white_font">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="s16_blue_grey_font" parent="blue_grey_font">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="s16_white_bold_font" parent="s16_white_font">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="s16_black_font" parent="black_font">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="s16_black_bold_font" parent="s16_black_font">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="s17_blue_grey_bold_font" parent="blue_grey_font">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="s17_dodger_blue_font_transparent_btn" parent="default_txt_btn_style">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/dodger_blue</item>
+    </style>
+
+    <style name="s17_black_font" parent="black_font">
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="s17_dodger_blue_font" parent="dodger_blue_font">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="s18_black_font" parent="black_font">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="s18_white_font" parent="white_font">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="s18_white_bold_font" parent="s18_white_font">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="s20_grey_brown_bold_font" parent="grey_brown_font">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="s20_cyan_grey_bold_font" parent="cyan_grey_font">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="s36_white_bold_font" parent="white_font">
+        <item name="android:textSize">36dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
