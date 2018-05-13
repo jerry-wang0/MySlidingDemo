@@ -1015,6 +1015,11 @@ public class SlidingMenu extends RelativeLayout {
 			});
 		}
 	}
+
+	/**
+	 *  设置背景透明度
+	 * @param f
+	 */
 	public void setOffsetFadeDegree(float f) {
 		mViewBehind.setOffsetFadeDegree(f);
 	}

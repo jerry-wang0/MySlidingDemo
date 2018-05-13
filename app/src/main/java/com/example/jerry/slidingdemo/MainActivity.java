@@ -1,11 +1,11 @@
 package com.example.jerry.slidingdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.jerry.slidingdemo.scrollview.ScreenUtil;
@@ -106,6 +106,12 @@ public class MainActivity extends AppCompatActivity {
         mScrollLayout.scrollToOpen();
     }
 
+    @OnClick (R.id.button_to_b)
+    protected void clickToB() {
+        Intent intent = new Intent(getApplicationContext(), ActivityB.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
         return false;
@@ -119,5 +125,4 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-
 }

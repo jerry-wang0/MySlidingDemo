@@ -9,6 +9,12 @@
 
     <include layout="@layout/title_main"/>
 
+    <Button
+        android:id="@+id/button_to_b"
+        android:text="line chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <com.example.jerry.slidingdemo.scrollview.ScrollLayout
         android:id="@+id/scroll_down_layout"
         android:layout_width="match_parent"
@@ -18,12 +24,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-            <!--<com.example.jerry.slidingdemo.scrollview.content.ContentListView-->
-                <!--android:id="@+id/list_view"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:background="@android:color/white"/>-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
